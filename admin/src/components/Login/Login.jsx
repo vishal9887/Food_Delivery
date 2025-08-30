@@ -6,7 +6,7 @@ import axios from "axios";
 import { StoreContext } from "../../context/StoreContext";
 import {useNavigate } from "react-router-dom";
 
-     const url = "http://localhost:5000"
+     const url = "https://food-delivery-ruxd.onrender.com"
 
 const Login = ({ url }) => {
   const navigate=useNavigate();
